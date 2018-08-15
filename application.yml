@@ -1,17 +1,14 @@
-spring:
-  profiles:
+﻿spring:
+ profiles:
     active:
-      -dev
+    - dev
 ---
 spring:
-  profiles:dev #开发环境
-    application:
-      name:microservicecloud-config-nikoyo-dev
-
+ profiles: dev
+ application:
+     name: microservicecloud-config-nikoyo-dev
 ---
 spring:
-  profiles:test   #测试环境
-    application:
-      name:microservicecloud-config-nikoyo-test
-
-# 保存为UTF-8
+ profiles: test
+ application:
+     name: microservicecloud-config-nikoyo-test
